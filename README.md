@@ -1,7 +1,9 @@
-# zshconfig
-My .zshrc file
+# zsh-config
+
+The run commands for my zsh preferences
 
 ## Plugins
+
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
