@@ -25,3 +25,6 @@ alias chohmyzsh="code ~/.oh-my-zsh"
 # alias: dos termininolgy
 alias cls="clear"
 alias dir="pwd"
+
+# alias: ssh utility
+alias pubkey="cat ~/.ssh/id_rsa.pub"
