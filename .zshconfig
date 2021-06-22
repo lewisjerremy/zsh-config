@@ -1,31 +1,27 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# powerlevel10k: prompt - do not move
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Path to your oh-my-zsh 
-export ZSH="/home/jerremy/.oh-my-zsh"
-
-# Theme
+# theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# Which plugins would you like to load?
+# oh-my-zsh: path
+export ZSH="/home/lewisj/.oh-my-zsh"
+
+# oh-my-zsh: plugins
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
-# Source OMZ
+# oh-my-zsh: source
 source $ZSH/oh-my-zsh.sh
 
-# Preferred editor for local and remote sessions
-export EDITOR='code'
-
-# Alias'
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-alias cls="clear"
-alias dir="pwd"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# powerlevel10k: source - do not move
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export ANDROID_SDK_ROOT="/mnt/c/Users/lewis/AppData/Local/Android/sdk"
-export adb="/mnt/c/Users/lewis/AppData/Local/Android/sdk/platform-tools/adb.exe"
+# alias: config shell
+alias chzsh="code ~/.zshrc"
+alias chohmyzsh="code ~/.oh-my-zsh"
+
+# alias: dos termininolgy
+alias cls="clear"
+alias dir="pwd"
